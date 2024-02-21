@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS POSITION PROJECT 3</title>
+    <style>
+        .main{
+            border: 2px;
+            border-style: solid;
+            border-color: rgb(90, 90, 90);
+            width: 331px;
+            height: 675px;
+            background-color: rgb(245, 248, 250);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .left{
+            float: left;
+            width: 155px;
+        }
+        .right{
+            float: right;
+        }
+        .leftList{
+            list-style: none;
+            color: blue; 
+            margin: 1px 10px 15px 10px;
+            font-size: 15px;
+        }
+        .rightList{
+            margin: 1px 10px 15px 10px;
+            list-style: none;
+        }
+        .firstList{
+            margin: 1px 10px 49px 10px;
+        }
+        img{
+            position: relative;
+            left: 90px;
+            margin: 0px 0px 2px 0px;
+        }
+        p{
+            font-weight: 550;
+            margin: 2px 0px 20px 0px;
+        }
+        ol{
+            float: left;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img width="130px" height="130px" src="https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png" alt="HTML">
+        <p>The official logo of the latest version, HTML5</p>
+        <div class="left">
+                <ol>
+                    <li class="leftList firstList">Filename extension</li>
+                    <li class="leftList">Internet media type</li>
+                    <li class="leftList">Type code</li>
+                    <li class="leftList">Uniform Type Identifier (UTI)</li>
+                    <li class="leftList">Developed by</li>
+                    <li class="leftList">Initial release</li>
+                    <li class="leftList">Latest release</li>
+                    <li class="leftList">Type of format</li>
+                    <li class="leftList">Container for</li>
+                    <li class="leftList">Container by</li>
+                    <li class="leftList">Extended from</li>
+                    <li class="leftList">Extended to</li>
+                    <li class="leftList">Open format?</li>
+                    <li class="leftList">Website</li>
+                </ol>
+        </div>
+        <div class="right">
+            <ol>
+                <li class="rightList">.html <br> <br> .htm</li>                
+                <li class="rightList">text/HTML</li>
+                <li class="rightList">text/HTML</li>
+                <li class="rightList">public.html</li>
+                <li class="rightList">WHATWG</li>
+                <li class="rightList">1993; 30 years ago</li>
+                <li class="rightList">HTML5</li>
+                <li class="rightList">Document</li>
+                <li class="rightList">HTML elements</li>
+                <li class="rightList">Web browser</li>
+                <li class="rightList">SGML</li>
+                <li class="rightList">XHTML</li>
+                <li class="rightList">Yes</li>
+                <li class="rightList">html.spec.whatwg.org</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

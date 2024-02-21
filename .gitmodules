@@ -4,3 +4,6 @@
 [submodule "PW_assignments"]
 	path = PW_assignments
 	url = git@github.com:RITIK-coder-1/pw-assignments.git
+[submodule "pw-assignments"]
+	path = pw-assignments
+	url = git@github.com:RITIK-coder-1/pw-assignments.git

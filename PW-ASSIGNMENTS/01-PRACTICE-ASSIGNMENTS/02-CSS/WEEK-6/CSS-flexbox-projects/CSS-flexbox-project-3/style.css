@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+footer{
+    width: 1400px;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 280px;
+    position: fixed;
+}
+.container1{
+    width: 370px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    right: 100px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    left: 150px;
+}
+img{
+    width: 100px;
+    height: 40px;
+}
+p{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.email{
+    margin-top: 15px;
+}
+.container2{
+    height: 250px;
+    margin-top: 70px;
+    position: relative;
+    right: 100px;
+}
+.container3{
+    display: flex;
+    margin-top: 35px;
+}
+h1{
+    font-weight: 100;
+    font-size: 25px;
+}
+hr{
+    width: 150px;
+    margin-top: 20px;
+    background-color: #d1a656;
+    height: 1px;
+    border: none;
+}
+.contact, .products{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    height: 110px;
+    padding-left: 1px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.container4{
+    height: 250px;
+    margin-top: 70px;
+    position: relative;
+    right: 100px;
+}
+.products{
+    margin-top: 5px;
+    height: 150px;
+    justify-content: space-around;
+    padding: 1px;
+}
+li{
+    font-size: 13px;
+}
+a:hover{
+    color: rgb(179, 214, 245);
+}

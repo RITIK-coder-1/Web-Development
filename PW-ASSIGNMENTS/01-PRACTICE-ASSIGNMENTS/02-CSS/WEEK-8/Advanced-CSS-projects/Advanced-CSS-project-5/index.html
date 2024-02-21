@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVANCE CSS 5</title>
+    <style>
+        body{
+            background: linear-gradient(to top, black, #292727);
+            background-repeat: no-repeat;
+            background-size: 100% 800px;
+            color: aliceblue;
+            text-align: center;
+        }
+        img{
+            border: 2px solid blue;
+            margin-left: 30px;
+            margin-top: 150px;
+            width: 250px;
+            height: 200px;
+            border-radius: 50%;
+            transform: scale(1.5);
+            filter: blur(15px);
+        }
+        img:hover{
+            filter: blur(0px);
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>HOVER TO REVEAL THE IMAGE</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn_E4D1jm-g1ySClvQNuiTiBAr4I8Kp9f20Q&usqp=CAU" alt="image">
+</body>
+</html>

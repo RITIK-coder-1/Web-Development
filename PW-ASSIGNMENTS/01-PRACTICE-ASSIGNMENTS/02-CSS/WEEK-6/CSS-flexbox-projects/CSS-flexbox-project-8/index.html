@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLEXBOX PROJECT 8</title>
+    <style>
+        body{
+            background-color: #242529;
+            display: flex;
+            justify-content: center;
+        }
+        img{        
+            width: 120px;
+            height: 110px;
+            border: 5px solid #ffffff;
+            border-radius: 50%;
+        }       
+        div{
+            display: flex;
+            position: relative;
+            top: 250px;
+        }
+        .img1{
+            z-index: 5;
+        }
+        .img2{
+            position: relative;
+            right: 30px;
+            z-index: 4;
+        }
+        .img3{
+            position: relative;
+            right: 60px;
+            z-index: 3;
+        }
+        .img4{
+            position: relative;
+            right: 90px;
+            z-index: 2;
+        }
+        .img5{
+            position: relative;
+            right: 120px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Qy4cuzQh4ZwOtrXzAVY3S6s4OtCEDJEciA&usqp=CAU" alt="image">
+        <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPu1WzaQzHhGaKijGBO1RGg8DgAeBihh9l89aDMrIxOK6Zn4Yob6eoWB9rP9NxA9uw4Cc&usqp=CAU" alt="image">
+        <img class="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIIY7g3L8Yo-OyluoIrmXmmOoBoyiNCqJ9HpaCzH8WEmKj3uYaj5aw4uUZIVvcSPaqFew&usqp=CAU" alt="image">
+        <img class="img4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz2ACXK2ZPWiuyJl9iFsgbzKk_7DvAX38BckfzwAsEUYPttM8RXaCoE-1b2_wtiNF2HEI&usqp=CAU" alt="image">
+        <img class="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2YAs_ndBLLYcHJEGAKg__B_5Q1tqAz1OOYE1-WbFBoSDLFUoUPYZfbMKbLFLK5WXwPjo&usqp=CAU" alt="image">
+    </div>
+</body>
+</html>

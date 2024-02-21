@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS PROJECT 6</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color:brown;
+            text-align: center;
+            position: relative;
+            top: 100px;
+            right: 150px;
+        }
+        form{
+            text-align: center;
+            color: aliceblue;
+            position: relative;
+            top: 150px;
+        }
+        label{
+            margin: 10px 15px;
+            padding: 10px 25px;
+        }
+        .text{
+            position: relative;
+            right: 50px;
+        }
+        .number{
+            position: relative;
+            right: 13px;
+        }
+        #name{
+            position: relative;
+            left: 50px;
+        }
+        #email{
+            position: relative;
+            left: 48px;
+        }
+        #number{
+            position: relative;
+            left: 10px;
+        }
+        input:focus{
+            background-color: yellow !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>REGISTER:</h1>
+    <form action="">
+        <label class="text" for="name">ENTER YOUR NAME:</label>
+        <input type="text" id="name"> <br> <br>
+        <label class="text" for="email">ENTER YOUR EMAIL:</label>
+        <input type="email" id="email"> <br> <br>
+        <label class="number" for="number">ENTER YOUR PHONE NUMBER:</label>
+        <input type="tel" id="number"> <br> <br>
+        <input type="button" style="width: 25px; background-color: red; position: relative; left: 245px; top: 50px;">
+    </form>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUEIRES 4 ASSIGNMENT</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: sans-serif;
+        }
+        .container{
+            display: grid;
+        }
+        .container > div{
+            display: grid;
+            grid-template-columns: 285px 285px 570px;
+            border: 1px solid beige;
+            color: beige;
+            padding: 10px;
+        }
+        .main span{
+            font-weight: 600;
+        }
+        @media screen and (max-width: 570px) {
+            .container{
+                overflow-x: scroll; 
+            }
+            .container > div{
+            border: 1px solid beige;
+            display: grid;
+            grid-template-columns: 285px 285px 570px;
+            color: beige;
+            padding: 10px;
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="main">
+            <span>Name</span>
+            <span>Phone</span>
+            <span>Email</span>
+        </div>
+    
+        <div>
+            <span>Prasoon Warrior</span>
+            <span>0922 4693746</span>
+            <span>bhargava.owais@karan.org</span>
+        </div>
+
+        <div>
+            <span>Abhinav Shah</span>
+            <span>031 82517861</span>
+            <span>kasturi.atwal@hotmail.com</span>
+        </div>
+
+        <div>
+            <span>Divya Tailor</span>
+            <span>050 92561492</span>
+            <span>moti00@johal.ac.in</span>
+        </div>
+
+        <div>
+            <span>Sameedha Chohan</span>
+            <span>062 21477958</span>
+            <span>mehul.raval@iyengar.in</span>
+        </div>
+
+        <div>
+            <span>Bharat Lal</span>
+            <span>001 60753896</span>
+            <span>ehsaan.mall@hotmail.com</span>
+        </div>
+
+        <div>
+            <span>Divya Tailor</span>
+            <span>085 07000374</span>
+            <span>chacko.chirag@aurora.net</span>
+        </div>
+
+        <div>
+            <span>Owais Narayanan</span>
+            <span>+91 23 26785010</span>
+            <span>trivedi.mukti@rediffmail.com</span>
+        </div>
+
+        <div>
+            <span>Malik Kaul</span>
+            <span>+91 01 76770651</span>
+            <span>kajol.pai@yahoo.co.in</span>
+        </div>
+
+        <div>
+            <span>Ajay Balakrishnan</span>
+            <span>+91 78 05949316</span>
+            <span>nishi.kaul@gmail.com</span>
+        </div>
+        
+        <div>
+            <span>Ekbal Bhatti</span>
+            <span>+91 102 8970609</span>
+            <span>oprashad@mitra.in</span>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVANCE CSS 9</title>
+    <style>
+        :root{
+            --color: #8b8282;
+            display: flex;
+            justify-content: center;
+        }
+        body{
+            background-color: #e66969;
+        }
+        div{
+            width: 550px;
+            height: 550px;
+            background-color: black;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 160px;
+            padding-left: 30px;
+            padding-right: 25px;
+            border-radius: 25px;
+            overflow-y: scroll;
+            box-sizing: border-box;;
+        }
+        img{
+            width: 250px;
+            height: 150px;
+        }
+        h1{
+            color: aliceblue;
+        }
+        p{
+            color: var(--color);
+        }
+        ::-webkit-scrollbar {
+            width: 4px;
+        }       
+        ::-webkit-scrollbar-thumb {
+            background-color: var(--color);
+            border-radius: 5px;
+        }
+        div:hover{
+            box-shadow: 1px 5px 3px 1px var(--color);
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://helios-i.mashable.com/imagery/articles/07IsFrd9etGi6QvQQWzTus6/hero-image.fill.size_1248x702.v1646244286.png" alt="logo">
+        <h1>Apple Inc</h1>
+        <p>Apple is renowned for its diverse range of consumer electronics, including the iPhone (smartphone), iPad (tablet), Mac (personal computer), Apple Watch (smartwatch), and Apple TV (digital media player). It also offers a variety of software and services.</p>
+        <p>Apple has built a robust ecosystem of hardware, software, and services that are designed to work seamlessly together. This ecosystem often encourages customers to stay within the Apple ecosystem, using multiple Apple devices and services.</p>
+        <p>Apple has a history of introducing groundbreaking technologies and features. Apple places a strong emphasis on user privacy and security. It has introduced features like App Tracking Transparency and end-to-end encryption for iMessage to protect user data. Apple is committed to sustainability and has made significant strides in reducing its carbon footprint. The company has set ambitious goals for renewable energy use and recycling. Apple is one of the world's largest and most profitable companies. It consistently ranks among the top technology companies by market capitalization.
+        Apple has had a profound impact on the technology industry and has a dedicated global customer base. Its products and innovations have shaped the way we use technology in our daily lives.</p>
+    </div>
+</body>
+</html>

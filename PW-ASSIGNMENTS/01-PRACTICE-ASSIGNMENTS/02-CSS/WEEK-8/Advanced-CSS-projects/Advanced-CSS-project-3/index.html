@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVANCE CSS 3</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        body{
+            background: linear-gradient(black, #383737);
+            background-repeat: no-repeat;
+            background-size: 100% 100vh;
+        }
+        .sticker{
+            width: 400px;
+            height: 350px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 5px;
+            margin-left: 450px;
+            margin-top: 100px;
+            background: linear-gradient(to left, #5656ca, skyblue);
+        }
+        .sticker:hover{
+            transform: rotate(-90deg);
+            transition: 1s;
+        }
+        .sticker > .number{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 25px;
+        }
+        .NumberOne{
+            font-size: 20px;
+            font-weight: 900;
+        }
+        .CreationDate{
+            color: aliceblue;
+            font-size: 15px;
+        }
+        .dates{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        h1{           
+            font-size: 25px;
+        }
+        ol{
+            list-style-type: disc;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+        button{
+            background: linear-gradient(to left, #45da45, aqua);
+            width: 350px;
+            height: 35px;
+            border-radius: 5px;
+            border: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="sticker">
+        <div class="number">
+            <span class="NumberOne">#01</span><span class="CreationDate">Created On: 01/01/2023</span>
+        </div>
+        <div class="dates">
+            <h1>Important dates</h1>
+            <ol>
+                
+                <li>January 25 - Replubic Day</li>
+                <li>August 15 - Indpendence Day</li>
+                <li>October 2 - Gandhi Jayanti</li>
+                <li>August 29 - National Sports Day</li>
+            </ol>
+            <button>Mark As Done</button>
+        </div>
+    </div>
+</body>
+</html>
