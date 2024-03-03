@@ -1,6 +1,6 @@
 [submodule "MY_WEBSITES"]
-	path = MY_WEBSITES
+	path = My_Websites
 	url = git@github.com:RITIK-coder-1/my-projects.git
 [submodule "pw-assignments"]
-	path = pw-assignments
+	path = PW_Assignments
 	url = git@github.com:RITIK-coder-1/pw-assignments.git
