@@ -48,4 +48,7 @@ SELECT * FROM Programming_Languages -- basic dcl command to select specific rows
 UPDATE Programming_Languages SET Purpose = "Machine Learning" WHERE Name = "Python"; -- this is a basic DML command to update the value of a tuple, SET is a DML command to set the new value of a column and WHERE is a DML command to include a condition
 UPDATE Programming_Languages SET Purpose = "Web App Develoment" WHERE Name = "JavaScript";
 
+
 SELECT Name FROM Programming_Languages WHERE Year = 1991; 
+
+Use Programming;
