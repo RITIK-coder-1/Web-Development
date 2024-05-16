@@ -53,3 +53,6 @@ UPDATE Programming_Languages SET Purpose = "Web App Develoment" WHERE Name = "Ja
 SELECT Name FROM Programming_Languages WHERE Year = 1991; 
 
 Use Programming;
+
+SELECT Random_Score, AVG(YEAR) FROM Programming_Languages GROUP BY Random_Score; 
+-- it will group the result into Random_Score where the rows with same random scores will be displayed together with the average of there year. 
