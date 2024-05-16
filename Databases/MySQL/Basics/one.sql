@@ -1,3 +1,4 @@
+-- Active: 1715839483511@@127.0.0.1@3306@Programming
 CREATE DATABASE Programming; -- this is a basic DDL command to create a database
 
 USE Programming; -- this is a basic DML command that is used to use a DATABASE
