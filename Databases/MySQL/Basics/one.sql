@@ -56,3 +56,5 @@ Use Programming;
 
 SELECT Random_Score, AVG(YEAR) FROM Programming_Languages GROUP BY Random_Score; 
 -- it will group the result into Random_Score where the rows with same random scores will be displayed together with the average of there year. 
+
+SELECT COUNT(DISTINCT Year) FROM Programming_Languages; -- this will count the number of distinct year values 
