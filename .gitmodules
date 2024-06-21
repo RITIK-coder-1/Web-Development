@@ -2,5 +2,8 @@
 	path = My_Websites
 	url = git@github.com:RITIK-coder-1/my-projects.git
 [submodule "pw-assignments"]
-	path = PW_Assignments
-	url = git@github.com:RITIK-coder-1/pw-assignments.git
+	path = pw-assignments
+	url = https://github.com/RITIK-coder-1/pw-assignments.git
+[submodule "my-projects"]
+	path = my-projects
+	url = https://github.com/RITIK-coder-1/my-projects.git
