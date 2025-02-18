@@ -1,0 +1,32 @@
+<head></head>
+<body>
+    <button id="one">click me</button>
+    <button id="two">punch me</button>
+    <button class="demo">demo</button>
+</body>
+<script>
+    console.log("here")
+    const one = document.getElementById("one")
+    one.addEventListener("click", () => {
+        console.log("clicked")
+    })
+    const two = document.querySelector("#two")
+    two.addEventListener("click", () => {
+        console.log("punched")
+    })
+    const button = document.createElement("button")
+    const demo = document.getElementsByClassName("demo")
+    console.log(demo);
+    const demoArray = Array.from(demo)
+    console.log(demoArray);
+    for (let i = 0; i < demoArray.length; i++) {
+        const element = demoArray[i];
+        console.log(element);
+        element.addEventListener("click", () => {
+            console.log("okay");
+            
+        })
+    }
+       
+    
+</script>
